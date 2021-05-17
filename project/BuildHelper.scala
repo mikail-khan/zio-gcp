@@ -8,7 +8,7 @@ object BuildHelper {
   resolvers += "google" at "https://maven.google.com/"
 
   private val Scala212        = "2.12.10"
-  private val Scala213        = "2.13.1"
+  private val Scala213        = "2.13.6"
   private val SilencerVersion = "1.6.0"
 
   private val stdOptions = Seq(
