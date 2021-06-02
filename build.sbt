@@ -53,7 +53,7 @@ lazy val core = project
   .settings(buildInfoSettings("zio.gcp.core"))
   .settings(
     libraryDependencies ++= Seq(
-      "dev.zio"                %% "zio"                     % "1.0.0-RC21",
+      "dev.zio"                %% "zio"                     % "1.0.9",
       "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.6"
     )
   )
@@ -66,7 +66,7 @@ lazy val firestore = project
   .settings(buildInfoSettings("zio.gcp.firestore"))
   .settings(
     libraryDependencies ++= Seq(
-      "dev.zio"                %% "zio"                     % "1.0.0-RC21",
+      "dev.zio"                %% "zio"                     % "1.0.9",
       "dev.zio"                %% "zio-interop-guava"       % "29.0.0.0",
       "com.google.cloud"        % "google-cloud-firestore"  % "1.32.4",
       "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.6"
@@ -81,7 +81,7 @@ lazy val pubsub = project
   .settings(buildInfoSettings("zio.gcp.pubsub"))
   .settings(
     libraryDependencies ++= Seq(
-      "dev.zio"                %% "zio"                     % "1.0.0-RC21",
+      "dev.zio"                %% "zio"                     % "1.0.9",
       "dev.zio"                %% "zio-interop-guava"       % "28.2.0.1",
       "com.google.cloud"        % "google-cloud-pubsub"     % "1.107.0",
       "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.6"
@@ -96,7 +96,7 @@ lazy val storage = project
   .settings(buildInfoSettings("zio.gcp.storage"))
   .settings(
     libraryDependencies ++= Seq(
-      "dev.zio"                %% "zio"                     % "1.0.0-RC21",
+      "dev.zio"                %% "zio"                     % "1.0.9",
       "dev.zio"                %% "zio-interop-guava"       % "28.2.0.1",
       "com.google.cloud"        % "google-cloud-storage"    % "1.109.1",
       "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.6"
@@ -111,7 +111,7 @@ lazy val redis = project
   .settings(buildInfoSettings("zio.gcp.redis"))
   .settings(
     libraryDependencies ++= Seq(
-      "dev.zio"                %% "zio"                     % "1.0.0-RC21",
+      "dev.zio"                %% "zio"                     % "1.0.9",
       "dev.zio"                %% "zio-interop-guava"       % "28.2.0.1",
       "com.google.cloud"        % "google-cloud-redis"      % "1.0.0",
       "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.6"
